@@ -1,37 +1,175 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="ko">
 
-You can use the [editor on GitHub](https://github.com/g0odDAY/g0odDAY.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hongchul Ju">
+    <meta name="description"
+        content="Hongchul Ju porfolio. Here you can take a look at some of my works on web programming.">
+    <meta name="keywords" content="Hongchul Ju, 주홍철,portfolio,blog,developer">
+    <meta name="Resource-type" content="Document">
+    <meta name="robots" content="ALL">
+    <title>Hongchul Ju | Portfolio</title>
+    <script src="https://kit.fontawesome.com/cbe76240f6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js"></script>
+</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <h1 class="nav-logo">Hongchul Ju<span class="logo-end">_</span></h1>
+            <ul class="nav-menu">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Tech">Tech</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="https://jhc9639.blog.me">Blog</a></li>
+                <li>
+                    <a href="https://github.com/wnghdcjfe" target="_blank" class="no-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+        <h3>Hi I'm <a href="https://github.com/wnghdcjfe" target="_blank">Hongchul ju</a></h3>
+        <h3>A developer who makes beautiful code</h3>
+        <p class="rank">
+            <a href="https://raw.githubusercontent.com/wnghdcjfe/wnghdcjfe.github.io/master/4percent.JPG"
+                class="rank-value" target="_blank">Top 4%</a> at 2020 Kakao Front-End Development Challenge,
+            <a href="https://github.com/mochajs/mocha/graphs/contributors" class="rank-value">76th </a>Mocha
+            Contributor,
+            <a href="https://solved.ac/profile/zagabi" class="rank-value" target="_blank">Platinum 1</a> in BOJ
+        </p>
+    </div>
+    <ul class="projects" data-anchor="projects" id="projects">
+        <li class="project project-1 ripple load-bg">
+            <div class="project-image"></div>
+            <a href="https://github.com/wnghdcjfe/wnghdcjfe.github.io/blob/master/amos.md"
+                class="project-content" target="_blank">
+                <h3 class="project-title"><span>AMOS</span></h3>
+                <span class="project-underline"></span>
+                <div class="project-description"><span>Real-time Weather Monitoring System</span></div>
+            </a>
+        </li>
+        <li class="project project-2 ripple load-bg">
 
-### Markdown
+            <div class="project-image"></div>
+            <a href="https://github.com/wnghdcjfe/IUtoon" class="project-content" target="_blank">
+                <h3 class="project-title"><span>IU toon</span></h3>
+                <span class="project-underline"></span>
+                <div class="project-description"><span>Singer IU Song Serving Page</span></div>
+            </a>
+        </li>
+        <li class="project project-3 ripple load-bg">
+            <div class="project-image"></div>
+            <a href="https://github.com/wnghdcjfe/wnghdcjfe.github.io/blob/master/knue.md" class="project-content"
+                target="_blank">
+                <h3 class="project-title"><span>KNUE</span></h3>
+                <span class="project-underline"></span>
+                <div class="project-description"><span>university community web site</span></div>
+            </a>
+        </li>
+        <li class="project project-4 ripple load-bg">
+            <div class="project-image"></div>
+            <a href="https://lucidcode.herokuapp.com/#/" class="project-content" target="_blank">
+                <h3 class="project-title"><span>Lucid Codeforce</span></h3>
+                <span class="project-underline"></span>
+                <div class="project-description"><span>A system that quickly finds answers to Codeforce.</span></div>
+            </a>
+        </li>
+        <li class="project project-5 ripple load-bg">
+            <div class="project-image"></div>
+            <a href="https://github.com/mochajs/mocha/graphs/contributors" class="project-content" target="_blank">
+                <h3 class="project-title"><span>Mocha.js</span></h3>
+                <span class="project-underline"></span>
+                <div class="project-description"><span>Javascript Test Framework</span></div>
+            </a>
+        </li>
+        <li class="project project-6 ripple load-bg">
+            <div class="project-image"></div>
+            <a href="https://github.com/wnghdcjfe/thousand_wooo_app" class="project-content" target="_blank">
+                <h3 class="project-title"><span>Solbang Notepad</span></h3>
+                <span class="project-underline"></span>
+                <div class="project-description"><span>Actor Chun Woo-hee's Notebook Page</span></div>
+            </a>
+        </li>
+    </ul>
+    <div class="about" data-anchor="about" id="about">
+        <div class="text-wrap animate-text ">
+            <h2>About<span class="logo-end">_</span></h2>
+            <p class="text-intro">
+                I started programming by developing a university community, and I joined the Air Force and developed a
+                project to provide weather data services. One of the most representative projects is the AMOS project
+                currently used by the airport control department.
+            </p>
+            <p class="text-intro">
+                Based on the experience of solving more than 1,300 algorithmic problems in BOJ, I have experienced
+                over 67% improvement in performance by using segments and a 15-fold increase in data growth, but 30%
+                improvement by removing unnecessary business logic and requests. </p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        </div>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <div class="Tech" data-anchor="Tech" id="Tech">
+        <div class="text-wrap animate-text ">
+            <h2>Tech<span class="logo-end">_</span></h2>
+            <p class="text-intro">Strong</p>
+            <p>
+                JS(ES5+) / Vue.js/ Vuex / React.js / Redux / D3.js /
+                Node.js / Express.js / Request.js / Cheerio.js /
+                Nightmare.js / Mocha.js / TypeScript / GraphQL /
+                HTML5 / CSS / Webpack / C++(PS) / Functional
+                Programming / MongoDB / Neo4j / Nginx</p>
+            <p class="text-intro">Knowledgeable</p>
+            <p>
+                Spring / Java / jQuery / Angular.js / PHP / Python / TensorFlow /
+                DL(LSTM, CNN) / Matplotlib / Numpy / Pandas /
+                Beautiful Soup 4 / Selenium / JSP /
+                MySQL / TiberoDB / FirebaseDB
+            </p>
+            <p class="text-intro">ETC</p>
+            <p>
+                Git / Docker / IOT / OPIC-IM2(20.02.29) / Secure Coding Completion(KISA)
+            </p>
+        </div>
+    </div>
+    <div class="awards" data-anchor="awards" id="awards">
+        <div class="text-wrap animate-text ">
+            <h2>Awards<span class="logo-end">_</span></h2>
+            <p class="text-intro"> 2020 Kakao Development Challenge Front-End Challenges</p>
+            <p> 20.07 / Top 4% / Programmers / <a href="https://bit.ly/2C96qdc">link</a></p>
+            <p class="text-intro"> 2019 Countributon – Mocha.js</p>
+            <p> 19.12.04 / Encouragement Prize / Ministry of Science and ICT</p>
+            <p class="text-intro"> citation (development of North Korean Artillery Weather Station)</p>
+            <p> 19.04.11 / defense Intelligence Headquarters
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                / Defense Department</p>
 
-# Header 1
-## Header 2
-### Header 3
+            <p class="text-intro">citation (development of AMOS)</p>
+            <p> 18.08.20 / Brigadier General
+                <i class="fas fa-star"></i>
+                / Weather Group of R.O.K Air Force</p>
+            <p class="text-intro"> 2nd place in SW development competition for military in South Korea
+            </p>
+            <p> 17.01.24 / General
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> / Defense Department</p>
+            <p class="text-intro"> 1st place in Startup Korea Gangwon Hackathon</p>
+            <p> 15.12 13/ 1st place / Gangwon Creative Economy Innovation Center</p>
+            <p class="text-intro"> 2nd place in the 2015 Korea Presentation Contest</p>
+            <p> 15.01.29 / 2nd place in university student category / G1 Gangwon</p>
+        </div>
+    </div>
 
-- Bulleted
-- List
+</body>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/g0odDAY/g0odDAY.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
