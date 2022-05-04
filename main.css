@@ -233,27 +233,27 @@ a:focus,a:hover {
 }
 
 .project-1.load-bg .project-image {
-    background-image: url(./imgs/1.jpg);
+    background-image: url(./img/1.jpg);
 }
 
 .project-2.load-bg .project-image {
-    background-image: url(./imgs/iu.gif);
+    background-image: url(./img/iu.gif);
 }
 
 .project-3.load-bg .project-image {
-    background-image: url(./imgs/knue.gif); 
+    background-image: url(./img/knue.gif); 
 }
 
 .project-6.load-bg .project-image { 
-    background-image: url(./imgs/thou.gif); 
+    background-image: url(./img/thou.gif); 
 }
 
 .project-4.load-bg .project-image { 
-    background-image: url(./imgs/lucid.png);
+    background-image: url(./img/lucid.png);
 }
 
 .project-5.load-bg .project-image {
-    background-image: url(./imgs/mocha.png);
+    background-image: url(./img/mocha.png);
 }
 
 .project-2 {
